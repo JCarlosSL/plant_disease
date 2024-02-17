@@ -36,16 +36,16 @@ pip install -r requirements.txt
 
 1. Necesitamos Descargar el dataset de [Kaggle](https://www.kaggle.com/abdallahalidev/plantvillage-dataset) y descomprimirlo en la carpeta data
 
-2. Ejecutar el script remove_background.py para eliminar el fondo de las imagenes
+2. Ejecutar el script removal_background.py para eliminar el fondo de las imagenes
 
 ```bash
-python remove_background.py
+python utils/removal_background.py
 ```
 
 3. Ejecutar el script augmentation.py para aumentar el dataset
     
 ```bash
-python augmentation.py
+python utils/augmentation.py
 ```
 
 4. Dividir el dataset en train, validation y test
@@ -60,3 +60,9 @@ Los reportes generados se encuentran en la carpeta documents
 
 - Accuracy y loss de los modelos [Reporte 1](documents/report1.pdf)
 - Comparacion con los modelos de DL [Reporte 2](documents/report2.pdf)
+
+# Google Drive
+
+Enlace a Google Drive
+
+https://drive.google.com/drive/folders/1J_pTPJtdnfEl-KEDfW13qr6Oz6z6oTdf?usp=sharing
